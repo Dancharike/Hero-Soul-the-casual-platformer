@@ -1,0 +1,9 @@
+[gd_scene load_steps=2 format=3 uid="uid://bn2u500unjexu"]
+
+[ext_resource type="AudioStream" uid="uid://dx5fpn8064cy7" path="res://music/Yoann Laulan - Dead Cells - Soundtrack Part 1 - 02 Prisoner_s Awakening.mp3" id="1_yhlmp"]
+
+[node name="MusicManager" type="AudioStreamPlayer2D"]
+stream = ExtResource("1_yhlmp")
+autoplay = true
+max_distance = 9.22337e+18
+bus = &"Music"
